@@ -14,7 +14,7 @@ end tell
 
 tell application "Google Chrome"
 	activate
-	set the bounds of the first window to {leftPosition + 920, topPosition, 1920, -200}
+	set the bounds of the first window to {leftPosition + 920, topPosition, 1920, 0}
 end tell
 
 
