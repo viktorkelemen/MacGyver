@@ -9,12 +9,12 @@ end tell
 
 tell application "Terminal"
 	activate
-	set the bounds of the first window to {leftPosition, topPosition, 920, -200}
+	set the bounds of the first window to {leftPosition + 1680, topPosition, 2600, 600}
 end tell
 
 tell application "Google Chrome"
 	activate
-	set the bounds of the first window to {leftPosition + 920, topPosition, 1920, 0}
+	set the bounds of the first window to {leftPosition + 2600, topPosition, 3600, 1200}
 end tell
 
 
