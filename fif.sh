@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# it expects a regular expression
+# it accepts a regular expression
 find .  -exec grep -q $1 '{}' \; -print
