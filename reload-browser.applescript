@@ -1,5 +1,6 @@
+--confirms your browser is the front application
 tell application "Google Chrome"
-	activate
+ activate
 end tell
 
 tell application "System Events"
@@ -7,5 +8,3 @@ tell application "System Events"
 		keystroke "r" using {command down}
 	end tell
 end tell
-
-tell application "TextMate" to activate
