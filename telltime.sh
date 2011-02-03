@@ -4,7 +4,7 @@ if [ "$*" ]
 then
 	for name in ${timezones[@]}
 	do
-	  echo TZ=$name date -v$1
+	  TZ=$name date -v$1
 	  echo ""
 	done
 else
@@ -12,7 +12,7 @@ else
 	echo ""
 	for name in ${timezones[@]}
 	do
-	  echo TZ=$name date
+	  TZ=$name date
 	  echo ""
 	done
 fi
