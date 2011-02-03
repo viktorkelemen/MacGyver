@@ -6,6 +6,7 @@ MacGyver's Utility scripts
 
  Usage: python click.py 100 100
 
+
 ### fif.sh
  Finds files in the current folder (and subfolders).
 
@@ -14,17 +15,22 @@ MacGyver's Utility scripts
 ### focus-textmate.applescript
  Activates textmate
 
+
 ### window layout scripts
  laptoponly-settings.applescript
+
  office-settings.applescript
+
 
 ### reload-browser.applescript
  Activates Chrome and reloads the current page.
+
 
 ### rwh.sh
  Removes the whitespaces from line endings.
 
  Usage: rwh.sh filename
+
 
 ### telltime.sh
  Tells time in different timezones.
