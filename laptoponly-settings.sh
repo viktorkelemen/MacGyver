@@ -1,1 +1,0 @@
-osascript laptoponly-settings.applescript

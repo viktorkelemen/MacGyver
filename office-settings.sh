@@ -1,1 +1,0 @@
-osascript office-settings.applescript
