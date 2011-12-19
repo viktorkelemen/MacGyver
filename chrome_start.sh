@@ -25,6 +25,13 @@ desktop)
     --enable-smooth-scrolling
   ;;
 
+office)
+  exec "$GOOGLE_CHROME" \
+    --enable-udd-profiles \
+    --user-data-dir="/Users/$USER/Library/Application Support/Google/Chrome/office" \
+    --preload-instant-search \
+  ;;
+
 android)
   exec "$GOOGLE_CHROME" \
     --enable-udd-profiles \
