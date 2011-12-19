@@ -1,1 +1,1 @@
-getmail -r ~/.getmail/getmail.gmail
+getmail -r ~/.getmail/getmailrc
