@@ -1,4 +1,4 @@
-timezones=( "Asia/Tokyo" "America/Los_Angeles" "America/New_York" "America/Chicago" "Europe/London" "")
+timezones=( "Asia/Tokyo" "America/Los_Angeles" "America/New_York" "America/Chicago" "Europe/London" "Europe/Madrid")
 
 if [ "$*" ]
 then
