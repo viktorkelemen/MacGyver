@@ -1,4 +1,4 @@
-timezones=( "Asia/Tokyo" "America/Los_Angeles" "America/New_York" "America/Chicago" "Europe/London" "Europe/Madrid")
+timezones=( "Asia/Tokyo" "America/Los_Angeles" "America/New_York" "America/Chicago" "Europe/London" "Europe/Madrid" "Asia/Dubai" )
 
 if [ "$*" ]
 then
@@ -8,11 +8,9 @@ then
 	  echo ""
 	done
 else
-	echo "Telling the current time in different timezones"
-	echo ""
+	echo "Current time in different timezones"
 	for name in ${timezones[@]}
 	do
 	  TZ=$name date
-	  echo ""
 	done
 fi
